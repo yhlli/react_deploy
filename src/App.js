@@ -25,7 +25,7 @@ function App() {
   const [editBody, setEditBody] = useState('');
   const navigate = useNavigate();
   const { width } = useWindowSize();
-  const { data, fetchError, isLoading } = useAxiosFetch('https://api.jsonbin.io/v3/b/65bd50f0dc746540189f6f9c');
+  const { data, fetchError, isLoading } = useAxiosFetch('https://api.jsonbin.io/v3/b/65bd5387dc746540189f70b4');
 
   useEffect(() => {
     setPosts(data);
