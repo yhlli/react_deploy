@@ -1,5 +1,5 @@
 import axios from 'axios';
 
 export default axios.create({
-    baseURL: 'https://api.jsonbin.io/v3/b/65bd5387dc746540189f70b4'
+    baseURL: 'https://my-json-server.typicode.com/yhlli/react_deploy/posts'
 });
